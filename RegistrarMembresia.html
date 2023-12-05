@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Registrar membresia: </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="form-control">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="idDonacion" class="form-label">Id membresia</label>
+          <input type="text" class="form-control" id="idMembresia">
+          <div id="idHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6">
+          <label for="idDonante" class="form-label">nombre membresia</label>
+          <input type="text" class="form-control" id="nombreMembresia">
+          <div id="nombreHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6">
+          <label for="cantidad" class="form-label">precio</label>
+          <input type="text" class="form-control" id="precioMembresia" placeholder="$">
+          <div id="precioHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6 ">
+          <label for="tipoDonacion" class="form-label">frecuencia</label>
+          <select class="form-control" id="frecuencia">
+            <option value="" selected disabled>seleccionar</option>
+            <option value="Año">año</option>
+            <option value="mes">mes</option>
+          </select>
+          <div id="frecuenciaHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6">
+          <label for="cantidad" class="form-label">fecha inicio</label>
+          <input type="text" class="form-control" id="fechaInicio" placeholder="$">
+          <div id="fechainicioHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6">
+          <label for="cantidad" class="form-label">fecha fin</label>
+          <input type="text" class="form-control" id="frechaFin" placeholder="$">
+          <div id="fechacinHelp" class="form-text"></div>
+        </div>
+        <div class="col-md-6 ">
+          <label for="tipoDonacion" class="form-label">servicio</label>
+          <select class="form-control" id="servicio">
+            <option value="" selected disabled>seleccionar</option>
+            <option value="rumba">rumba</option>
+            <option value="aerobico">aerobico</option>
+          </select>
+          <div id="servicioHelp" class="form-text"></div>
+        </div>
+
+        <div class="col-12">
+          <button type="button" class="btn btn-primary" id="btnRegistrar">Registrar</button>
+          <a href="listar.html"><button type="button" class="btn btn-danger">Cancelar</button></a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <script src="js/funciones.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
