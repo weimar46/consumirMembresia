@@ -1,5 +1,5 @@
-const url = 'https://api-node2.onrender.com/membresia'
-// const url = 'http://localhost:8282/membresia '
+//const url = 'https://api-node2.onrender.com/membresia'
+const url = 'http://localhost:8282/membresia '
 
 const regresarListar = () => {
     window.location.href = 'index.html';
