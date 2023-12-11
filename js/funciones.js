@@ -1,5 +1,5 @@
-//const url = 'https://api-node2.onrender.com/membresia'
-const url = 'http://localhost:8383/membresia '
+const url = 'https://api-node2.onrender.com/membresia'
+//const url = 'http://localhost:8383/membresia '
 
 const regresarListar = () => {
     window.location.href = 'index.html';
@@ -97,7 +97,7 @@ const registrarMembresias = () => {
                 Swal.fire({
                     position: "center",
                     icon: "success",
-                    title: "membresia editada exitosamente",
+                    title: "membresia registrada exitosamente",
                     showConfirmButton: false,
                     timer: 1500
                 });
@@ -210,7 +210,7 @@ const actualizarMembresia = () => {
                 Swal.fire({
                     position: "center",
                     icon: "success",
-                    title: "Donación actualizada exitosamente",
+                    title: "membresia actualizada exitosamente",
                     showConfirmButton: false,
                     timer: 1500
                 });
